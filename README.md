@@ -1,6 +1,12 @@
 # Clustering-Using-PyCaret
-Using PyCaret to compare different Clustering Algorithms on the Iris Dataset. The Species column was removed 
-
+Using PyCaret to compare different Clustering Algorithms on the Iris Dataset. The Species column was removed.
+#### Metrics Used
+**1. Silhouette Score**: This measures how well data points are assigned to their clusters by considering both intra-cluster distance (similarity) and inter-cluster distance (dissimilarity). It ranges from -1 to 1, with higher values indicating better clustering.     
+       
+**2. Calinski-Harabasz Index**: This compares the average distance between clusters to the average distance within clusters. Higher values indicate better separation between clusters. 
+           
+**3. Davies-Bouldin Index**: This measures the ratio of the within-cluster distance to the between-cluster distance. Lower values indicate tighter and better-separated clusters.     
+         
 ### 1.Without PreProcessing
 ![image](https://github.com/Pratham20ag/Clustering-Using-PyCaret/assets/124654924/cba59248-0257-400a-8860-b31c7adaa8ef)
 
